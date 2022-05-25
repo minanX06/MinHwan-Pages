@@ -76,3 +76,9 @@ a{
     font-family:"Gaegu", cursive;
     font-size:40px;
 }
+
+@media(max-width:1279px) {
+    body{
+        display:none;
+    }
+}
