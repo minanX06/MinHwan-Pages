@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinHwan Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Noto+Sans:wght@400;900&family=Nunito:wght@900&display=swap');
+        body{
+            margin-left:0px;margin-right:0px;
+        }
+    </style>
+</head>
+<body>
+    <style>
+        .title{
+            font-size:40px;
+            font-family: 'Nunito', sans-serif;
+            text-align:center;
+            margin:0px 5px 10px 5px;
+            padding:10px;
+            text-decoration:none;
+            color:black;
+        }
+
+        .gobox{
+            text-align:right;
+        }
+
+        .go{
+            display:inline-block;
+            font-size:15px;
+            color:gray;
+            text-align:right;
+            margin:15px;
+            font-family:'Noto Sans KR', 'sans-serif';
+        }
+
+        a{
+            text-decoration:none;
+        }
+        
+        .menubox{
+            font-size:20px;
+            padding:10px 0px 10px 0px;
+            margin: 0px;
+            text-align:left;
+            border-top: 1px solid rgb(200, 200, 200);
+            box-shadow: 0px 0px 3px 0px rgb(0 0 0 / 20%);
+        }
+
+        .menu{
+            color:rgb(171, 171, 171);
+            font-size:17px;
+            padding-bottom:10px;
+            margin:0px 20px 0px 20px;
+            display:inline;
+        }
+
+        .contentbox{
+            margin:20px 0px 0px 0px;
+        }
+
+        .bg-wrapper{
+            background-image: url("code.png");
+            
+        }
+
+        .overlay{
+            width:1240px;
+            height:460px;
+        }
+
+        .home-content{
+            font-size:40px;
+            color:rgb(150, 255, 255);
+            text-align:center;
+            margin:0px;
+            top:35%;
+            position:relative;
+            font-family:'Noto Sans KR', 'sans-serif';
+        }
+
+        .home-content2{
+            font-size:60px;
+            color:white;
+            text-align:center;
+            margin:0px;
+            top:35%;
+            position:relative;
+            font-family:'Noto Sans KR', 'sans-serif';
+        }
+
+        .introduce{
+            margin:50px;
+        }
+
+        .simple-intro{
+            font-family:'Noto Sans KR', 'sans-serif';
+            font-size:30px;
+            display:inline;
+            width:300px;
+        }
+
+        .intro-title{
+            font-family:'Nunito', sans-serif;
+            font-size:50px;
+        }
+
+        .intro-content{
+            font-family:'Noto Sans KR', sans-serif;
+            padding-left:60px;
+            font-size:20px;
+        }
+
+        .introbox{
+            border-left:3px dotted black;
+            margin-top:20px;
+            padding-left:100px;
+        }
+
+        .whole-intro{
+            padding:50px;
+        }
+
+        .first-intro{
+            margin:0px 50px 50px 50px;
+        }
+
+        .last-intro{
+            margin: 50px 50px 0px 50px;
+        }
+
+        .whole-tag{
+            padding:50px;
+            padding-right:0px;
+            margin: 0px 10px 0px 30px;
+            border:3px solid black;
+            width:1150px;
+        }
+
+        .tag-title{
+            font-family:'Noto Sans KR', 'sans-serif';
+            font-size:20px;
+            display:inline;
+            width:300px;
+        }
+
+        .tag{
+            font-family:"Nunito", sans-serif;
+            font-size:20px;
+            list-style-type:circle;
+        }
+
+        .tagbox{
+            margin-top:20px;
+            padding-left:100px;
+            margin-right:0px;
+            width:300px;
+        }
+
+        #grid{
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            width:100%
+            
+        }
+
+    </style>
+    <div class="gobox">
+        <a href="http://woollim.cnehs.kr/main.do"><div class="go">사대부고 바로가기</div></a>
+        <a href="https://www.instagram.com/_minan_06/"><div class="go">인스타 바로가기</div></a>
+    </div>
+    <a href="mhpage_home.html"><h1 class="title">MinHwan Page</h1></a>
+    <div class="menubox">
+        <a href="mhpage_1.html"><h4 class="menu">프로필</h4></a>
+        <a href="mhpage_2.html"><h4 class="menu">좋아하는 것들</h4></a>
+        <a href="mhpage_3.html"><h4 class="menu">프로그래밍</h4></a>
+        <a href="mhpage_4.html"><h4 class="menu">Dev On</h4></a>
+    </div>
+    <div>
+        <div class="bg-wrapper">
+            <div class="overlay">
+                <h1 class="home-content">Welcome To MinHwan Page!</h1>
+                <h2 class="home-content2">'MinHwan Page'에 오신 것을 환영합니다!</h2>
+            </div>
+        </div>
+        <div class="whole-intro", id="grid">
+            <span class="simple-intro">
+                <h1><strong>간략한 소개</strong></h1>
+            </span>
+            <div class="introbox">
+                <div class="first-intro">
+                    <h1 class="intro-title">Menu1-Profile</h1>
+                    <h3 class="intro-content">-기본 정보, 프로필</h3>
+                </div>
+                <div class="introduce">
+                    <h1 class="intro-title">Menu2-Favorite</h1>
+                    <h3 class="intro-content">-좋아하는 것들</h3>
+                </div>
+                <div class="introduce">
+                    <h1 class="intro-title">Menu3-Programming</h1>
+                    <h3 class="intro-content">-프로그램들</h3>
+                </div>
+                <div class="last-intro">
+                    <h1 class="intro-title">Menu4-DevOn</h1>
+                    <h3 class="intro-content">-Dev On 동아리 소개</h3>
+                </div>
+            </div>
+        </div>
+        <div class="whole-tag">
+            <span class="tag-title">
+                <h1>사용된 태그</h1>
+            </span>
+            <div class="tagbox">
+                <ol>
+                    <li class="tag">'p' tag</li>
+                    <li class="tag"t>'h' tag</li>
+                    <li class="tag">'a' tag</li>
+                    <li class="tag">'div' tag</li>
+                    <li class="tag">'span' tag</li>
+                    <li class="tag">'ol' tag</li>
+                    <li class="tag">'li' tag</li>
+                    <li class="tag">'br' tag</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

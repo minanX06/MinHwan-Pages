@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite-MinHwan Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gaegu&family=Jua&family=Noto+Sans+KR:wght@400;900&family=Nunito:wght@900&display=swap');
+        body{
+            margin-left:0px;
+            margin-right:0px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        #now{
+            color:#92684C;
+            border-bottom: 3px solid #92684C;
+        }
+
+        .menu-content{
+            margin-top:30px;
+            border-top:3px solid #92684C;
+            border-bottom:3px solid #92684C;
+            display:grid;
+            grid-template-columns: 600px 1fr;
+            width:100%;
+        }
+        
+        #store{
+            top:5%;
+        }
+
+        #any{
+            top:25%
+        }
+    </style>
+    <div class="gobox">
+        <a href="http://woollim.cnehs.kr/main.do"><div class="go">사대부고 바로가기</div></a>
+        <a href="https://www.instagram.com/_minan_06/"><div class="go">인스타 바로가기</div></a>
+    </div>
+    <a href="mhpage_home.html"><h1 class="title">MinHwan Page</h1></a>
+    <div class="menubox">
+        <a href="mhpage_1.html"><h4 class="menu">프로필</h4></a>
+        <a href="mhpage_2.html"><h4 class="menu", id="now">좋아하는 것들</h4></a>
+        <a href="mhpage_3.html"><h4 class="menu">프로그래밍</h4></a>
+        <a href="mhpage_4.html"><h4 class="menu">Dev On</h4></a>
+    </div>
+    <div>
+        <div class="menu1">
+            <h1 class="intro-title">좋아하는 것들</h1>
+            <h2 class="intro-subtitle">Favorite Things</h2>
+        </div>
+        <div class="menu-content">
+            <div>
+                <img src="blue.jpg", alt="No Image">
+            </div>
+            <div class="grid-content">
+                <ol>
+                    <li>좋아하는 색깔: 파란색, 보라색 계열</li>
+                    <li>좋아하는 소설: [한 스푼의 시간]</li>
+                    <li>좋아하는 과목: 수학</li>
+                </ol>
+            </div> 
+        </div>
+        <div class="menu-content">
+            <div>
+                <img src="store.jpg", alt="No Image">
+            </div>
+            <div class="grid-content" id="store">
+                <ol>
+                    <li>좋아하는 매점 과자: 칸쵸, 시리얼</li>
+                    <li>좋아하는 매점 음료수: 알로에</li>
+                    <li>좋아하는 매점 음식: 포켓치킨, 햄버거, 핫바</li>
+                </ol>
+            </div> 
+        </div>
+        <div class="menu-content">
+            <div>
+                <img src="hydrangea.jpg", alt="No Image">
+            </div>
+            <div class="grid-content", id="any">
+                <ol>
+                    <li>좋아하는 동물: 고양이</li>
+                    <li>좋아하는 꽃: 수국</li>
+                    <li>좋아하는 노래 장르: 인디</li>
+                    <li>좋아하는 스포츠: 볼링, 배드민턴</li>
+                </ol>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
